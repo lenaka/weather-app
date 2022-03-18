@@ -1,0 +1,62 @@
+.container {
+  --card-padding: 24px;
+  width: var(--card-width);
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.bg {
+  background: linear-gradient(180deg,
+    rgba(0, 0, 0, 0) calc(168px),
+    var(--main-background) calc(169px),
+    rgba(0, 0, 0, 0) calc(170px)
+  );
+  height: 193px;
+  padding: var(--card-padding) var(--card-padding) var(--card-padding) var(--padding);
+  position: relative;
+}
+
+.mainContainer {
+
+}
+
+.footerContainer {
+  position: absolute;
+  bottom: calc(var(--card-padding) - 2px);
+}
+
+.trash {
+  position: absolute;
+  right: var(--card-padding);
+}
+
+.city {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mark-color);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.weatherContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.temperature {
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.weatherIcon img {
+  vertical-align: middle;
+}
+
+.weatherDescription {
+  font-size: 14px;
+  color: var(--subtitle-text-color);
+  margin-top: 4px;
+}

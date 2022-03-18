@@ -1,0 +1,18 @@
+.container {
+  background: linear-gradient(180deg,
+    rgba(0,0,0,0) calc(50% - 1px),
+    rgba(214,210,209,1) calc(50%),
+    rgba(0,0,0,0) calc(50% + 1px)
+  );
+  text-align: center;
+}
+
+.logo {
+  background: var(--main-background);
+  width: 80px;
+  margin: auto;
+}
+
+.logo img {
+  vertical-align: middle;
+}

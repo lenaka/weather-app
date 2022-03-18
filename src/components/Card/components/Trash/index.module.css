@@ -1,0 +1,12 @@
+.container {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--main-background);
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.container img {
+  margin: auto;
+}

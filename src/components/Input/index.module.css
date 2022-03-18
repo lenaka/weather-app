@@ -1,0 +1,11 @@
+.input[type="text"] {
+  background: #d6d2d1;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: calc(100% - 32px);
+  height: calc(100% - 24px);
+}
+
+.input::placeholder {
+  color: var(--subtitle-text-color);
+}

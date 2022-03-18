@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+}
+
+.results {
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0 0 1px rgba(28, 7, 19, 0.2), 0 6px 12px rgba(28, 7, 19, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  left: 0;
+  margin-top: 8px;
+  z-index: 10;
+}
+

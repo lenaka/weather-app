@@ -1,0 +1,18 @@
+.headContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: var(--card-flex-wrap);
+  gap: 16px 160px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
+  margin-top: var(--padding);
+  gap: calc(var(--padding) * 3 / 4) var(--padding);
+}
+
+.h1 {
+  margin-top: var(--padding);
+  margin-bottom: calc(var(--padding) / 2);
+}

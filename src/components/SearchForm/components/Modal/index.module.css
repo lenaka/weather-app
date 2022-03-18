@@ -1,0 +1,18 @@
+.spinner {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.noContainer {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.noTitle {
+  font-weight: bold;
+}
+
+.noDescription {
+  font-size: 14px;
+  color: var(--subtitle-text-color);
+}

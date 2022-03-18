@@ -1,0 +1,7 @@
+.subtitle {
+  font-family: 'Merriweather', serif;
+  color: var(--subtitle-text-color);
+  line-height: 24px;
+  max-width: var(--card-width);
+  letter-spacing: 0.01em;
+}
